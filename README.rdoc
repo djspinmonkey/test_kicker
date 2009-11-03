@@ -5,7 +5,8 @@ project is being developed in tandem with Testify as a usage example / sanity
 check / the immediate reason we wanted Testify in the first place.  Hopefully
 it will have a more generalized support for various test frameworks (especially
 RSpec) than autotest does, as well as a more robust set of hooks.  Testify
-itself is envisioned as a general-purpose testing middleware - see ((that project|http://github.com/djspinmonkey/testify)) for more details.
+itself is envisioned as a general-purpose testing middleware - see
+http://github.com/djspinmonkey/testify for more details.
 
 == Usage
 
