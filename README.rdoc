@@ -1,6 +1,11 @@
 = test_kicker
 
-Test Kicker is a lightweight autotester based on Testify and Kicker.
+Test Kicker is a lightweight autotester based on Testify and Kicker.  This
+project is being developed in tandem with Testify as a usage example / sanity
+check / the immediate reason we wanted Testify in the first place.  Hopefully
+it will have a more generalized support for various test frameworks (especially
+RSpec) than autotest does, as well as a more robust set of hooks.  Testify
+itself is envisioned as a general-purpose testing middleware - see ((that project|http://github.com/djspinmonkey/testify)) for more details.
 
 == Usage
 
@@ -23,4 +28,4 @@ a .testify file, etc).
 
 == Copyright
 
-Copyright (c) 2009 John Hyland. See LICENSE for details.
+Copyright (c) 2009 John Hyland and Emily Price. See LICENSE for details.
