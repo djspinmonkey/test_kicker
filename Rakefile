@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "test_kicker"
     gem.summary = %Q{A lightweight autotester based on Kicker and Testify}
-    gem.description = %Q{TODO: longer description of your gem}
+    #gem.description = %Q{TODO: longer description of your gem}
     gem.email = "github@djspinmonkey.com"
     gem.homepage = "http://github.com/djspinmonkey/test_kicker"
     gem.authors = ["John Hyland"]
