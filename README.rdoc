@@ -4,7 +4,7 @@ Test Kicker is a lightweight autotester based on Testify and Kicker.
 
 == Usage
 
-`test_kicker`
+    test_kicker
 
 Yeah.  That's pretty much it, as long as you run it from a directory Testify
 can deal with (eg, a Rails app, anywhere with a spec/ directory, anywhere with
@@ -18,7 +18,7 @@ a .testify file, etc).
   future version unintentionally.
 * Commit, do not mess with rakefile, version, or history.
   (if you want to have your own version, that is fine but
-   bump version in a commit by itself I can ignore when I pull)
+  bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
 == Copyright
