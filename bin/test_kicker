@@ -1,7 +1,5 @@
 #!/usr/bin/ruby
 
-# At some point, use Kicker to do the watchy thingy.
-
 require 'testify'
 
 dir = ARGV[0]  # the directory to run the tests
@@ -12,7 +10,13 @@ end
 
 runner = TestRunner.new(dir)
 
+# TODO: At some point, use Kicker to do the watchy thingy.  For now, we'll just
+# hang out waiting for SIGINT.
+
 Signal.trap("INT") do
   runner.run
   puts "Tests currently have a status of #{runner.status}"
+  Thread.stop
 end
+
+Thread.stop
