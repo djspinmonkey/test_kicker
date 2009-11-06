@@ -1,0 +1,18 @@
+#!/usr/bin/ruby
+
+# At some point, use Kicker to do the watchy thingy.
+
+require 'testify'
+
+dir = ARGV[0]  # the directory to run the tests
+
+class TestRunner < Testify::Base
+  framework :rspec
+end
+
+runner = TestRunner.new(dir)
+
+Signal.trap("INT") do
+  runner.run
+  puts "Tests currently have a status of #{runner.status}"
+end
